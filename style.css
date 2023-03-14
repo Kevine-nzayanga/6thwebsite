@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1024px) and (max-width: 1440px){ 
+@media only screen and (min-width: 664px) and (max-width: 1440px){ 
 body{
     background-color: #F0F0F0;
 }
@@ -870,7 +870,7 @@ width: 80px;
         
         .box1{
             background-image: url(/images/redmovecropped.png);
-            flex-wrap: nowrap;  
+            flex-wrap: nowrap;   
             background-repeat: no-repeat;
         background-position: right;
         background-size: contain;
@@ -947,29 +947,33 @@ width: 80px;
             height: 40px;
         }
         .box{
-            display: flex;
+             /* display: flex; */ */
         }
         .bigshoe img{
             padding-top: 50px;
-            width: 1090px;
-            height: 500px;
+            width: 190px;
+            height: 50px;
             margin-left: -150px;
+        }
+        .bigwords{
+            position: absolute;
+            float: left;
         }
         .bigwords button{
             background-image: linear-gradient(rgba(221, 100, 25, 0.919),rgb(237, 47, 79));
-            font-size: medium;
-            border: none 100px; 
+            font-size: small;
+            border: none 10px; 
              color: white; 
-            width: 150px;
+            width: 90px;
             height: 50px ;
             border-radius:20px;
         
         }
         .bigwords p{
-            font-size: x-large;
+            font-size: small;
         }
         .bigwords h2{
-            font-size: 80px;
+            font-size: 10px;
         }
         .redpart1{
             color: red;
