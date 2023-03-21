@@ -789,6 +789,7 @@
         }
          .wholepart7{
             display: grid;
+            grid-template-columns: auto auto auto auto auto;
                 
          }
          .part1 img{
