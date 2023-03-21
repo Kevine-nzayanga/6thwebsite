@@ -1,8 +1,8 @@
 @media only screen and (min-width: 740px) and (max-width: 1440px){ 
 
     .whole{
-        margin-right: -3%;
-      /* margin-left:0 20%;   */
+        /* margin-right: -3%; */
+      margin:0 20%;   
      /* border: solid black; */
     }
     
