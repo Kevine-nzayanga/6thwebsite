@@ -849,7 +849,7 @@
     }
     .description1 ,.description3{
         font-size: 22px;
-        /* margin-left: -7%; */
+         margin-left: -7%; 
         text-align: justify;
     }
     .lastsee{
@@ -1798,7 +1798,7 @@
     }
     .description1 ,.description3{
         font-size: 12px;
-        /* margin-left: -7%; */
+        margin-left: -7%; 
         text-align: justify;
         
     }
