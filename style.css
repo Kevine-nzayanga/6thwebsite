@@ -892,7 +892,7 @@ color: #FE4C55;
  
 }
 
- @media only screen and (min-width: 664px) and (max-width: 1440px){ 
+ @media only screen and (min-width: 700px) and (max-width: 1440px){ 
 
 .whole{
  margin:0 50px; 
@@ -1828,6 +1828,9 @@ width: 80px;
             font-size: medium;
             font-weight: bolder;
              margin-right: 20px; 
+        }
+        .leftnav a:hover{
+          color: #f8afeb;
         }
         .leftnav img{
             width: 200px;
