@@ -1,8 +1,8 @@
 @media only screen and (min-width: 740px) and (max-width: 1440px){ 
 
     .whole{
-     margin:0 20px; 
-     
+     /* margin:0 20px;  */
+     /* border: solid black; */
     }
     
     .box1{
@@ -971,7 +971,7 @@
                 margin-right: 50px;
             }
             .signup{
-                margin-right: 100px;
+                margin-right: 80px;
                 border: solid black 1px;
                 border-radius: 15%;
                 width: 90px; 
@@ -1435,21 +1435,7 @@
              .head{
                 color: rgb(52, 51, 51);
              }
-             /* .overlap{
-               float: right;
-               margin-right: 400px;
-             } */
-            
-            /* .linebox{
-                border: #1d1c1c solid;
-                /* margin-left: 200px; 
-               border-bottom: solid;
-               border-right: solid ;
-               border-top: none;
-               width: 100px;
-                float: right;
-                margin-right: 100px;
-            } */
+          
             
             
              .box6 p{
