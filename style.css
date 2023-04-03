@@ -89,7 +89,7 @@ margin-left: 400px;
 .bigwords button{
     background-image: linear-gradient(rgba(221, 100, 25, 0.919),rgb(237, 47, 79));
     font-size: medium;
-    border: none 100px; 
+    border:  100px; 
      color: white; 
     width: 150px;
     height: 50px ;
@@ -138,6 +138,7 @@ margin-left: 400px;
    
 }
 .card1{
+    width: 100px;
     display: flex;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 
@@ -414,7 +415,7 @@ height: 150px;
          width: 250px; 
           border-radius: 10px;
     }
-    .cartminib4{
+    .cartminia4 .cartminib4{
         padding-left: 10px;
         text-align: center;
     }
@@ -794,7 +795,7 @@ width: 80px;
     }
     .box7{
         color: white;
-        background-color:   #FE4C55;  
+        background-color: #FE4C55;  
        
     }
      .wholepart7{
@@ -835,6 +836,11 @@ width: 80px;
     
         }
 
+
+
+
+
+
         /* THE LAST PAGE  */
         .lastpage{
             margin:0 60px; 
@@ -868,7 +874,7 @@ color: #FE4C55;
 
 .description1 ,.description3{
     font-size: 25px;
-    margin-left: -25%;
+    /* margin-left: -28%; */
     text-align: justify;
 }
 .lastsee{
@@ -881,15 +887,38 @@ color: #FE4C55;
         border-radius: 5px;
   
 }
+
+
+
+/* THE FORM PAGE */
+.body{
+    
+    background-color: #F0F0F0;
+    background-image: url(/images/redmovecropped.png);
+    background-repeat: no-repeat;
+    background-position: right;
+     background-size: 400px; 
+    /* border: solid black; */
+    width: 98%;
+    text-align: center;
+    
+}
+.formpage{
+    /* margin:0 50px;  */
+}
+/* .lasticon{
+    width: 100px;
+    height: 70px;
+} */
+
 .questions{
     text-align: center;
 }
 .questions input{
     border-radius: 5px;
     color: white;
-    width: 400px;
-    height: 40px;
+    /* width: 500px; */
+    height: 50px;
     border: none;
  
 }
-

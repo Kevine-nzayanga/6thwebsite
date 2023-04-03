@@ -6,20 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/form.html">
     <link rel="stylesheet" href="/querry.css">
+    <link rel="stylesheet" href="style.css">
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script> 
     <title>Contact us</title>
 </head>
-<body>
+<body class="body">
     <section class="formpage">
         <section class="top">
           <div class="navbar"> 
             <div class="leftnav">
               <img src="/images/logo-removebg-preview.png" alt=""> 
-               <a h class="word20">Home</a>
-               <a href="/second.html" >   Trending</a>
-               <a >About us</a>
-               <a >Contact us</a>
+               <a href="/index.html" >Home</a>
+               <a href="/second.html" >Trending</a>
+               <a href="/third.html" >About us</a>
+               <a href="/form.html" class="word20">Contact us</a>
            </div>
         
             <div class="rightnav">
@@ -33,22 +34,23 @@
         </section>
         
         <section class="questions">
-        <h5>Have Some Questions?</h5>
-        <input type="text" placeholder="First Name" name="text"> <ion-icon class="lasticon" name="person-outline"></ion-icon>
+        <h2>Have Some Questions?</h2>
+        <input class="lasticon" type="text" placeholder="First Name" name="text"> <ion-icon  name="person-outline"></ion-icon>
         <br>
         <br>
-        <input type="text" placeholder="Last Name" name="text"> <ion-icon class="lasticon"name="person-outline"></ion-icon>
+        <input class="lasticon" type="text" placeholder="Last Name" name="text"> <ion-icon name="person-outline"></ion-icon>
         <br>
         <br>
-        <input type="email" placeholder="Your Email" name="email"> <ion-icon class="lasticon" name="mail-outline"></ion-icon>
+        <input class="lasticon" type="email" placeholder="Your Email" name="email"> <ion-icon  name="mail-outline"></ion-icon>
         <br>
         <br>
-        <input type="number" placeholder="Country code" name="number"> <ion-icon class="lasticon" name="barcode-outline"></ion-icon>
+        <input class="lasticon" type="number" placeholder="Country code" name="number"> <ion-icon  name="barcode-outline"></ion-icon>
         <br>
         <br>
-        <input type="your question" placeholder="Your Questions" name="search"><ion-icon class="lasticon" name="clipboard-outline"></ion-icon>
-        
-        <button>Submit now</button>
+        <textarea class="lasticon1" type="your question" placeholder="Your Questions "  name="search"></textarea> <ion-icon name="clipboard-outline"></ion-icon>
+        <br>
+        <br>
+        <button class="formbutton">Submit now</button>
         </section>
         </section>
 </body>
