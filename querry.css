@@ -140,8 +140,8 @@
        
     }
     .card1{
-        width: 220px;
-        /* border: solid black; */
+        /* width: 220px; */
+         /* border: solid black;  */
         display: flex;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     
@@ -915,11 +915,13 @@
     /* margin:0 50px;  */
 }
 .lasticon{
+    border-style: solid black;
+    border-radius: 20000%;
     width: 100px;
     height: 100px;
 }
 .lasticon1{
-    /* width: 100px; */
+     width: 500px; 
     height: 200px;
     font-size: medium;
 }
@@ -946,6 +948,11 @@
         border-radius:20px;
 }
     
+
+.emojis{
+    margin-left: -4%;
+}
+
   }
           
 
@@ -956,7 +963,7 @@
                 background-color: #F0F0F0;
             }
             .whole{
-             margin:0 20px; 
+             /* margin:0 20px;  */
              
             }
             
@@ -991,7 +998,7 @@
             .leftnav a{
                 font-size: medium;
                 font-weight: bolder;
-                 margin-right: 20px; 
+                 /* margin-right: 20px;  */
             }
             .leftnav a:hover{
               color: #f8afeb;
@@ -1899,7 +1906,16 @@
     
    } 
    .lasticon{
-    width: 50px;
+    width: 100px;
     height: 10px;
    }
+   .lasticon1{
+    width: 150px;
+    height: 100px;
+   }
+     .emojis{
+        /* background-color: chartreuse; */
+         margin-left: -50%;
+       }
+
 }

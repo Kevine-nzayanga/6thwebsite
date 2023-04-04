@@ -138,7 +138,7 @@ margin-left: 400px;
    
 }
 .card1{
-    width: 100px;
+    /* width: 220px; */
     display: flex;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 
@@ -922,3 +922,8 @@ color: #FE4C55;
     border: none;
  
 }
+
+.emojis{
+    margin-left: -4%;
+}
+
